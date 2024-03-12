@@ -3,7 +3,6 @@ from users.serializers import UserSerializer
 from users.models import User
 from rest_framework.permissions import IsAuthenticated
 from users.permissions import IsUser
-# Create your views here.
 
 
 class UserCreateAPIView(generics.CreateAPIView):
